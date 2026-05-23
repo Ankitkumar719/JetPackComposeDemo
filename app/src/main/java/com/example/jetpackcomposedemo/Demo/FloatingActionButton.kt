@@ -7,6 +7,7 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Add
+import androidx.compose.material3.ExtendedFloatingActionButton
 import androidx.compose.material3.FloatingActionButton
 import androidx.compose.material3.Icon
 import androidx.compose.material3.SmallFloatingActionButton
@@ -44,6 +45,18 @@ fun SmallExample(onClick : ()-> Unit){
     }
 }
 
+@Composable
+fun ExtendedExample(onClick : () -> Unit){
+    ExtendedFloatingActionButton(
+        onClick = { onClick() },
+        icon = { Icon(
+            imageVector = Icons.Filled.Add,
+            contentDescription = "Extended Floating Action Button"
+        )},
+        text = { Text(text = "Extended FAB")}
+    )
+}
+
 
 @Preview(showBackground = true)
 @Composable
@@ -61,7 +74,7 @@ fun FloatingActionButtonExamples() {
         SmallExample(onClick = { Log.d("FAB", "Small FAB clicked.") })
 //        Text("Large floating action button:")
 //        LargeExample(onClick = { Log.d("FAB", "Large FAB clicked.") })
-//        Text("Floating action button with text:")
-//        ExtendedExample(onClick = { Log.d("FAB", "Extended FAB clicked.") })
+        Text("Floating action button with text:")
+        ExtendedExample(onClick = { Log.d("FAB", "Extended FAB clicked.") })
     }
 }

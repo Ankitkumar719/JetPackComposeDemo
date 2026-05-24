@@ -18,6 +18,8 @@ import com.example.jetpackcomposedemo.Demo.FilterChipExample
 import com.example.jetpackcomposedemo.Demo.FloatingActionButtonExamples
 import com.example.jetpackcomposedemo.Demo.Greeting
 import com.example.jetpackcomposedemo.Demo.InputChipExample
+import com.example.jetpackcomposedemo.Demo.MenuPreview
+import com.example.jetpackcomposedemo.Demo.MinimalDropdownMenu
 import com.example.jetpackcomposedemo.Demo.accessResources
 import com.example.jetpackcomposedemo.Demo.annotatedStringWithListenerSample
 import com.example.jetpackcomposedemo.Demo.boxExample
@@ -67,7 +69,8 @@ class MainActivity : ComponentActivity() {
 //                checkBoxExample()
 //                ChipExamples()
 //                DialogBoxPreview()
-                FloatingActionButtonExamples()
+//                FloatingActionButtonExamples()
+                MenuPreview()
             }
         }
     }

@@ -20,7 +20,7 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 
 @Composable
-fun Example(onClick : () -> Unit){
+fun Example(onClick: () -> Unit) {
     FloatingActionButton(
         onClick = { onClick() }
     ) {
@@ -32,12 +32,12 @@ fun Example(onClick : () -> Unit){
 }
 
 @Composable
-fun SmallExample(onClick : ()-> Unit){
+fun SmallExample(onClick: () -> Unit) {
     SmallFloatingActionButton(
         onClick = { onClick() },
         containerColor = Color.Blue,
         contentColor = Color.Green
-    ){
+    ) {
         Icon(
             imageVector = Icons.Filled.Add,
             contentDescription = "Small Floating Action Button"
@@ -46,14 +46,16 @@ fun SmallExample(onClick : ()-> Unit){
 }
 
 @Composable
-fun ExtendedExample(onClick : () -> Unit){
+fun ExtendedExample(onClick: () -> Unit) {
     ExtendedFloatingActionButton(
         onClick = { onClick() },
-        icon = { Icon(
-            imageVector = Icons.Filled.Add,
-            contentDescription = "Extended Floating Action Button"
-        )},
-        text = { Text(text = "Extended FAB")}
+        icon = {
+            Icon(
+                imageVector = Icons.Filled.Add,
+                contentDescription = "Extended Floating Action Button"
+            )
+        },
+        text = { Text(text = "Extended FAB") }
     )
 }
 

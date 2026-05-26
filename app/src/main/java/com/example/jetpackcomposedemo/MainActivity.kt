@@ -18,8 +18,12 @@ import com.example.jetpackcomposedemo.Demo.FilterChipExample
 import com.example.jetpackcomposedemo.Demo.FloatingActionButtonExamples
 import com.example.jetpackcomposedemo.Demo.Greeting
 import com.example.jetpackcomposedemo.Demo.InputChipExample
+import com.example.jetpackcomposedemo.Demo.IntermediateCircularIndicator
+import com.example.jetpackcomposedemo.Demo.LinearDeterminateIndicator
 import com.example.jetpackcomposedemo.Demo.MenuPreview
 import com.example.jetpackcomposedemo.Demo.MinimalDropdownMenu
+import com.example.jetpackcomposedemo.Demo.PullToRefreshBasicPreview
+import com.example.jetpackcomposedemo.Demo.ScaffoldExamplePreview
 import com.example.jetpackcomposedemo.Demo.accessResources
 import com.example.jetpackcomposedemo.Demo.annotatedStringWithListenerSample
 import com.example.jetpackcomposedemo.Demo.boxExample
@@ -34,6 +38,7 @@ import com.example.jetpackcomposedemo.Demo.image
 import com.example.jetpackcomposedemo.Demo.lazyColumnExample
 import com.example.jetpackcomposedemo.Demo.lazyRowExample
 import com.example.jetpackcomposedemo.Demo.modifiers
+import com.example.jetpackcomposedemo.Demo.navigationDrawerExamplePreview
 import com.example.jetpackcomposedemo.Demo.outlinedCardExample
 import com.example.jetpackcomposedemo.Demo.partialBottomSheet
 import com.example.jetpackcomposedemo.Demo.partiallySelectableText
@@ -70,7 +75,12 @@ class MainActivity : ComponentActivity() {
 //                ChipExamples()
 //                DialogBoxPreview()
 //                FloatingActionButtonExamples()
-                MenuPreview()
+//                MenuPreview()
+//                ScaffoldExamplePreview()
+//                navigationDrawerExamplePreview()
+//                LinearDeterminateIndicator()
+//                IntermediateCircularIndicator()
+                PullToRefreshBasicPreview()
             }
         }
     }

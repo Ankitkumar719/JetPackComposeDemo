@@ -24,6 +24,7 @@ import com.example.jetpackcomposedemo.Demo.MenuPreview
 import com.example.jetpackcomposedemo.Demo.MinimalDropdownMenu
 import com.example.jetpackcomposedemo.Demo.PullToRefreshBasicPreview
 import com.example.jetpackcomposedemo.Demo.ScaffoldExamplePreview
+import com.example.jetpackcomposedemo.Demo.ScaffoldSnackbarPreview
 import com.example.jetpackcomposedemo.Demo.SegmentedButtonPreview
 import com.example.jetpackcomposedemo.Demo.SimpleSearchBarExample
 import com.example.jetpackcomposedemo.Demo.SliderMinimalExamplePreview
@@ -86,7 +87,8 @@ class MainActivity : ComponentActivity() {
 //                PullToRefreshBasicPreview()
 //                SimpleSearchBarExample()
 //                SegmentedButtonPreview()
-                SliderMinimalExamplePreview()
+//                SliderMinimalExamplePreview()
+                ScaffoldSnackbarPreview()
             }
         }
     }

@@ -132,5 +132,5 @@ fun MultiChoiceSegmentedButton() {
 @Composable
 fun SegmentedButtonPreview() {
 //    SingleChoiceSegmentedButton()
-    MultiChoiceSegmentedButton()
+//    MultiChoiceSegmentedButton()
 }
